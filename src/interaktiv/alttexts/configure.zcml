@@ -16,11 +16,7 @@
   <include file="profiles.zcml" />
   <include file="permissions.zcml" />
 
-  <include package=".controlpanels" />
+  <include package=".behaviors" />
   <include package=".indexers" />
-  <include package=".serializers" />
-  <include package=".vocabularies" />
-
-  <!-- -*- extra stuff goes here -*- -->
 
 </configure>
