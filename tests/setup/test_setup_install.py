@@ -8,9 +8,9 @@ class TestSetupInstall:
 
     def test_browserlayer(self, browser_layers):
         """Test that IBrowserLayer is registered."""
-        from interaktiv.alttexts.interfaces import IBrowserLayer
+        from interaktiv.alttexts.interfaces import IInteraktivAltTextBrowserLayer
 
-        assert IBrowserLayer in browser_layers
+        assert IInteraktivAltTextBrowserLayer in browser_layers
 
     def test_latest_version(self, profile_last_version):
         """Test latest version of default profile."""
