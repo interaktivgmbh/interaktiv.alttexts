@@ -11,7 +11,13 @@ from zope.interface import provider
 class IAltTextBehavior(model.Schema):
     alt_text = schema.TextLine(
         title=_("alt_text_label", default="Alt text"),
-        description="",
+        description=_(
+            "alt_text_description",
+            default=("An alternative text makes the image accessible for "
+                     "people using assistive technologies and as fallback for "
+                     "when the image fails to load. Decorative images should "
+                     "not have an alternative text."),
+        ),
         required=False,
         default="",
     )

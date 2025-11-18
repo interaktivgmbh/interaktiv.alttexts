@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2022-05-25 17:12+0000\n"
+"POT-Creation-Date: 2025-11-18 13:57+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,3 +16,37 @@ msgstr ""
 "Language-Name: English\n"
 "Preferred-Encodings: utf-8 latin1\n"
 "Domain: interaktiv.alttexts\n"
+
+#: interaktiv/alttexts/behaviors/configure.zcml:20
+msgid "Adds Image Alt Text Behavior"
+msgstr ""
+
+#: interaktiv/alttexts/behaviors/configure.zcml:20
+msgid "Image Alt Text"
+msgstr ""
+
+#: interaktiv/alttexts/profiles.zcml:13
+msgid "Installs the interaktiv.alttexts add-on."
+msgstr ""
+
+#: interaktiv/alttexts/profiles.zcml:13
+msgid "Interaktiv Alt Texts: Install"
+msgstr ""
+
+#: interaktiv/alttexts/profiles.zcml:22
+msgid "Interaktiv Alt Texts: Uninstall"
+msgstr ""
+
+#: interaktiv/alttexts/profiles.zcml:22
+msgid "Uninstalls the interaktiv.alttexts add-on."
+msgstr ""
+
+#. Default: "An alternative text makes the image accessible for people using assistive technologies and as fallback for when the image fails to load. Decorative images should not have an alternative text."
+#: interaktiv/alttexts/behaviors/alt_text.py:14
+msgid "alt_text_description"
+msgstr ""
+
+#. Default: "Alt text"
+#: interaktiv/alttexts/behaviors/alt_text.py:13
+msgid "alt_text_label"
+msgstr ""
