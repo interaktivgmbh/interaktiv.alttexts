@@ -4,7 +4,7 @@ dynamic = ["version"]
 description = "Add alternative texts for images."
 readme = "README.md"
 license = "GPL-2.0-only"
-requires-python = ">=3.10"
+requires-python = ">=3.8"
 authors = [
     { name = "Interaktiv GmbH", email = "info@interaktiv.de" },
 ]
@@ -20,14 +20,20 @@ classifiers = [
     "Framework :: Plone :: Addon",
     "License :: OSI Approved :: GNU General Public License v2 (GPLv2)",
     "Operating System :: OS Independent",
-    "Programming Language :: Python","Programming Language :: Python :: 3.10","Programming Language :: Python :: 3.11","Programming Language :: Python :: 3.12","Programming Language :: Python :: 3.13",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
 ]
 dependencies = [
     "Products.CMFPlone",
     "plone.api",
     "plone.restapi",
     "plone.volto",
-    
 ]
 
 [project.optional-dependencies]
