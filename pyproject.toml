@@ -4,7 +4,7 @@ dynamic = ["version"]
 description = "Add alternative texts for images."
 readme = "README.md"
 license = "GPL-2.0-only"
-requires-python = ">=3.8"
+requires-python = ">=3.10"
 authors = [
     { name = "Interaktiv GmbH", email = "info@interaktiv.de" },
 ]
@@ -21,8 +21,6 @@ classifiers = [
     "License :: OSI Approved :: GNU General Public License v2 (GPLv2)",
     "Operating System :: OS Independent",
     "Programming Language :: Python",
-    "Programming Language :: Python :: 3.8",
-    "Programming Language :: Python :: 3.9",
     "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
