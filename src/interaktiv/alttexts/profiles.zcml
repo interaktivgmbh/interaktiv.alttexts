@@ -18,6 +18,7 @@
       description="Uninstall Interaktiv Alt Texts setup."
       provides="Products.GenericSetup.interfaces.EXTENSION"
       directory="profiles/uninstall"
+      post_handler=".setuphandlers.uninstall"
       />
 
   <!-- Hide Uninstall Profile-->
