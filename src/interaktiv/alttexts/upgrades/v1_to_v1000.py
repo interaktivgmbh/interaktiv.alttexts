@@ -1,4 +1,3 @@
-
 import plone.api as api
 from Products.CMFPlone.CatalogTool import CatalogTool
 from Products.GenericSetup.tool import SetupTool

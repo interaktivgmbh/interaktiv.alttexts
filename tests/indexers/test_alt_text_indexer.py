@@ -8,11 +8,7 @@ class TestAltTextIndexer:
         setRoles(portal, TEST_USER_ID, ["Manager"])
 
         expected_alt_text = "Test alt text"
-        test_image = api.content.create(
-            container=portal,
-            type="Image",
-            id="test_image"
-        )
+        test_image = api.content.create(container=portal, type="Image", id="test_image")
         test_image.alt_text = expected_alt_text
 
         # do it

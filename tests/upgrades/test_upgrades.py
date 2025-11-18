@@ -1,4 +1,3 @@
-
 import plone.api as api
 from Products.ZCatalog.CatalogBrains import AbstractCatalogBrain
 from interaktiv.alttexts.upgrades import v1_to_v1000
@@ -11,11 +10,7 @@ class TestUpgrades:
         catalog = api.portal.get_tool("portal_catalog")
 
         setRoles(portal, TEST_USER_ID, ["Manager"])
-        test_image = api.content.create(
-            container=portal,
-            type="Image",
-            id="test_image"
-        )
+        test_image = api.content.create(container=portal, type="Image", id="test_image")
 
         # pre condition - satisfy the type checker warning
         # "Local variable 'catalog' might be referenced before assignment"
