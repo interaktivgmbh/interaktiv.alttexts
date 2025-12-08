@@ -4,18 +4,8 @@
 
 Add alternative texts for images.
 
-## Contribute
-
-- [Issue tracker](https://github.com/interaktivgmbh/interaktiv.alttexts/issues)
-- [Source code](https://github.com/interaktivgmbh/interaktiv.alttexts/)
-
-### Prerequisites
-
--   An [operating system](https://6.docs.plone.org/install/create-project-cookieplone.html#prerequisites-for-installation) that runs all the requirements mentioned.
--   [uv](https://6.docs.plone.org/install/create-project-cookieplone.html#uv)
--   [Make](https://6.docs.plone.org/install/create-project-cookieplone.html#make)
--   [Git](https://6.docs.plone.org/install/create-project-cookieplone.html#git)
--   [Docker](https://docs.docker.com/get-started/get-docker/) (optional)
+This add-on enables editors to provide meaningful alt texts for images,
+improving both accessibility and SEO.
 
 ### Adding this add-on to your project
 
@@ -36,6 +26,11 @@ url = https://github.com/interaktivgmbh/interaktiv.alttexts.git
 branch = main
 extras = test
 ```
+
+## Contribute
+
+- [Issue tracker](https://github.com/interaktivgmbh/interaktiv.alttexts/issues)
+- [Source code](https://github.com/interaktivgmbh/interaktiv.alttexts/)
 
 ## License
 
