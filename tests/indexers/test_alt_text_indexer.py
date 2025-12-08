@@ -1,4 +1,6 @@
-from plone.app.testing import TEST_USER_ID, setRoles
+from plone.app.testing import setRoles
+from plone.app.testing import TEST_USER_ID
+
 import plone.api as api
 
 

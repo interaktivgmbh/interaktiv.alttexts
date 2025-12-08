@@ -1,8 +1,10 @@
-import pytest
 from interaktiv.alttexts import PACKAGE_NAME
-from plone.app.testing import TEST_USER_ID, setRoles
+from plone.app.testing import setRoles
+from plone.app.testing import TEST_USER_ID
 from plone.dexterity.interfaces import IDexterityFTI
 from zope.component import getUtility
+
+import pytest
 
 
 class TestSetupUninstall:

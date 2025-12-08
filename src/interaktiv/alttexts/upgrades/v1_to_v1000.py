@@ -1,7 +1,8 @@
-import plone.api as api
 from Products.CMFPlone.CatalogTool import CatalogTool
 from Products.GenericSetup.tool import SetupTool
 from Products.ZCatalog.CatalogBrains import AbstractCatalogBrain
+
+import plone.api as api
 
 
 # noinspection PyUnusedLocal

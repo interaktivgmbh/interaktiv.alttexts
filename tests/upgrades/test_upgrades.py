@@ -1,7 +1,9 @@
-import plone.api as api
-from Products.ZCatalog.CatalogBrains import AbstractCatalogBrain
 from interaktiv.alttexts.upgrades import v1_to_v1000
-from plone.app.testing import TEST_USER_ID, setRoles
+from plone.app.testing import setRoles
+from plone.app.testing import TEST_USER_ID
+from Products.ZCatalog.CatalogBrains import AbstractCatalogBrain
+
+import plone.api as api
 
 
 class TestUpgrades:

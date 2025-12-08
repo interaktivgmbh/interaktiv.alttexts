@@ -1,7 +1,7 @@
 """Module where all interfaces, events and exceptions live."""
 
-from zope.publisher.interfaces.browser import IDefaultBrowserLayer
 from plone.app.contenttypes.interfaces import IPloneAppContenttypesLayer
+from zope.publisher.interfaces.browser import IDefaultBrowserLayer
 
 
 class IInteraktivAltTextBrowserLayer(IPloneAppContenttypesLayer, IDefaultBrowserLayer):
