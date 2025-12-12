@@ -1,6 +1,6 @@
 # interaktiv.alttexts
 
-[![interaktiv.alttexts CI](https://github.com/interaktivgmbh/interaktiv.alttexts/actions/workflows/ci.yml/badge.svg)](https://github.com/interaktivgmbh/interaktiv.alttexts/actions/workflows/ci.yml)
+[![Code checks](https://github.com/interaktivgmbh/interaktiv.alttexts/actions/workflows/ci.yml/badge.svg)](https://github.com/interaktivgmbh/interaktiv.alttexts/actions/workflows/ci.yml)
 
 Add alternative texts for images.
 
