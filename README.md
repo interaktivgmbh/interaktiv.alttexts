@@ -17,7 +17,7 @@ it in the Image view and fullscreen view.
 There is also the [volto-interaktiv-alttexts](https://github.com/interaktivgmbh/volto-interaktiv-alttexts)
 Volto add-on, that adds this feature to your Volto frontend.
 
-### Adding this add-on to your project
+## Adding this add-on to your project
 
 Install the add-on using `pip`:
 
