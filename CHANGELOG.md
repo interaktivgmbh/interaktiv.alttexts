@@ -9,7 +9,7 @@
 
 <!-- towncrier release notes start -->
 
-## 1.0.0a0 (2025-12-16)
+## 1.0.0 (2025-12-16)
 
 
 ### Internal:
