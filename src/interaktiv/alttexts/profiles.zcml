@@ -7,7 +7,7 @@
   <genericsetup:registerProfile
       name="default"
       title="Interaktiv Alt Texts: Install"
-      description="Package to configure a new Interaktiv Alt Texts site"
+      description="Installs the interaktiv.alttexts add-on."
       provides="Products.GenericSetup.interfaces.EXTENSION"
       directory="profiles/default"
       />
@@ -15,9 +15,10 @@
   <genericsetup:registerProfile
       name="uninstall"
       title="Interaktiv Alt Texts: Uninstall"
-      description="Uninstall Interaktiv Alt Texts setup."
+      description="Uninstalls the interaktiv.alttexts add-on."
       provides="Products.GenericSetup.interfaces.EXTENSION"
       directory="profiles/uninstall"
+      post_handler=".setuphandlers.uninstall"
       />
 
   <!-- Hide Uninstall Profile-->

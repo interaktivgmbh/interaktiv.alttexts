@@ -3,19 +3,13 @@
     xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
     >
 
-  <!-- Example upgrade step
-  <genericsetup:upgradeSteps
+  <genericsetup:upgradeStep
+      title="Re-index all image"
+      description="Re-indexes all images to add an alternative text."
       profile="interaktiv.alttexts:default"
-      source="1000"
-      destination="1001"
-      >
-    <genericsetup:upgradeDepends
-        title="Update registry value"
-        import_steps="plone.app.registry"
-        />
-  </genericsetup:upgradeSteps>
-  -->
-
-  <!-- -*- extra stuff goes here -*- -->
+      source="1"
+      destination="1000"
+      handler="interaktiv.alttexts.upgrades.v1_to_v1000.upgrade"
+      />
 
 </configure>

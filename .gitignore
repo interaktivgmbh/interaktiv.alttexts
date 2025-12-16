@@ -34,6 +34,7 @@ var/
 # mxdev
 .installed.txt
 .lock
+.mxdev_cache
 /.make-sentinels/
 /*-mxdev.txt
 /instance/
@@ -42,3 +43,6 @@ var/
 /venv/
 constraints*.txt
 requirements*.txt
+
+# interaktiv.alttexts
+**/locales/**/*.mo
