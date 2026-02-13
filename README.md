@@ -38,7 +38,7 @@ In your `mx.ini` file, add:
 ```ini
 [interaktiv.alttexts]
 url = git@github.com:interaktivgmbh/interaktiv.alttexts.git
-branch = v1.0.0
+branch = v2.0.0
 extras = test
 ```
 
@@ -47,7 +47,7 @@ Or using https:
 ```ini
 [interaktiv.alttexts]
 url = https://github.com/interaktivgmbh/interaktiv.alttexts.git
-branch = v1.0.0
+branch = v2.0.0
 extras = test
 ```
 
